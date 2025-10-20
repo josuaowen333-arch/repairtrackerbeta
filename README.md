@@ -33,3 +33,12 @@ When importing the repo in Vercel:
 No additional config files are required for this basic setup.
 
 ---
+
+## Bootstrap
+
+This project includes Bootstrap 5.
+
+- CSS is imported in `src/main.jsx` from `bootstrap/dist/css/bootstrap.min.css`.
+- JS (for interactive components like modals, dropdowns) is imported from `bootstrap/dist/js/bootstrap.bundle.min.js`.
+
+When you `npm install` locally or Vercel builds the project, Bootstrap will be installed automatically.
